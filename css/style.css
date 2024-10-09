@@ -81,11 +81,112 @@ body {
 
 .cover-info ,h3 ,h1 {
     color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
+
+.cover-info h1 {
+    font-size: 80px;
+}
+
 
 .navbar-2{
     position: sticky;
-    z-index: 1;
+    z-index:900;
     width: 100%;
     top: 0;
+}
+
+.btn2-cover{
+    background-color: transparent;
+  border: solid 1px white;
+  font-weight: bolder;
+}
+
+.btn2-cover:hover{
+    background-color: #17B890;
+}
+
+.prev-container {
+
+padding: 10px;
+width: 90px;
+height: 90px;
+border-radius: 45px;
+background-color: rgba(255, 255, 255, 0.32);
+
+
+}
+.prev-container:hover{
+    background-color: #ff4d29;
+  
+}
+.prev-container h3:hover{
+ color: white;
+}
+.prev-container h3{
+ margin-top: 15px;
+      color: rgb(16, 15, 15); 
+
+
+}
+
+
+.next-container{
+
+padding: 10px;
+width: 90px;
+height: 90px;
+border-radius: 45px;
+background-color: rgba(255, 255, 255, 0.32);
+
+}
+.next-container:hover{
+    background-color: #ff4d29;
+ 
+}
+.next-container h3:hover{
+    color: white;
+}
+
+
+.next-container h3 {
+    margin-top: 15px; 
+    color: rgb(16, 15, 15);
+}
+
+/* about :::  */
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    /* padding: 200px; */
+    width: 70%;
+
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about-logo{
+    height: 120px;
+    margin-right: 40px;
+}
+
+.about-wrapper{
+    padding: 150px 150px;
+
+}
+
+.about-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-right: 150px;
+    border-left: solid 20px #ff4d29;
+}
+
+#About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

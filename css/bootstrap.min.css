@@ -5973,12 +5973,13 @@ fieldset:disabled .btn {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #09d92c;
   text-align: center;
   background: 0 0;
   border: 0;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: opacity 0.15s ease;
+
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-next,
@@ -5986,7 +5987,7 @@ fieldset:disabled .btn {
     transition: none;
   }
 }
-.carousel-control-next:focus,
+/* .carousel-control-next:focus,
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
@@ -5994,7 +5995,7 @@ fieldset:disabled .btn {
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
-}
+} */
 .carousel-control-prev {
   left: 0;
 }
@@ -6057,13 +6058,13 @@ fieldset:disabled .btn {
 }
 .carousel-caption {
   position: absolute;
-  right: 65%;
+  right: 48%;
   bottom: 25.25rem;
-  left: 15%;
+  left: 12%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  text-align: center;
+  text-align: start;
 }
 .carousel-dark .carousel-control-next-icon,
 .carousel-dark .carousel-control-prev-icon {

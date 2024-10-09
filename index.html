@@ -1,129 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-  
-</head>
-<body>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+<style>
+  .nav-item .nav-link.active{
+    color: #ff4d29;
+  }
+</style>
+
+
+  </head>
+  <body  data-bs-spy="scroll" data-bs-target=".navbar-2">
     <!-- navbar 1 :::  -->
-<section class="nav-1">
-<div class="contact">
+    <section class="nav-1">
+      <div class="contact">
         <span><i class="fa-regular fa-envelope"></i></span>
         <span>name@gmail.com</span>
         <span class="phone-nav1"><i class="fa-solid fa-phone"></i></span>
         <span>(+216)646464646</span>
-</div>
-    <nav>
+      </div>
+      <nav>
         <a href=""><i class="fa-brands fa-facebook"></i></a>
         <a href=""><i class="fa-brands fa-instagram"></i></a>
         <a href=""><i class="fa-brands fa-twitter"></i></a>
         <a href=""><i class="fa-brands fa-github"></i></a>
-    </nav>
-</section>
-<!-- navbar 2 :::  -->
+      </nav>
+    </section>
+    <!-- navbar 2 :::  -->
 
-<section class="navbar-2">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-      <div class="container-fluid nav-2 px-5 ">
-        <a class="navbar-brand" href="#">PRIXIMA <span>.</span> </a>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <section class="navbar-2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav-2 px-5">
+          <a class="navbar-brand" href="#">PRIXIMA <span>.</span> </a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
-            </li>
-            <button type="button" class="btn">Contact</button>
-          </ul>
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blogs">Blogs</a>
+              </li>
+              <button type="button" class="btn">Contact</button>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
+
+    <!-- caroussel :  -->
+ <section id="Home">
+     <div id="carouselExampleCaptions" class="carousel slide">
+       <div class="carousel-indicators">
+         <button
+           type="button"
+           data-bs-target="#carouselExampleCaptions"
+           data-bs-slide-to="0"
+           class="active"
+           aria-current="true"
+           aria-label="Slide 1"
+         ></button>
+         <button
+           type="button"
+           data-bs-target="#carouselExampleCaptions"
+           data-bs-slide-to="1"
+           aria-label="Slide 2"
+         ></button>
+       </div>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="./images/cover1 .jpg" class="d-block w-100" alt="..." />
+           <div class="carousel-caption d-none d-md-block">
+             <div class="cover-info">
+               <h3>we craft degital experiances</h3>
+               <h1>
+                 design driven for <br />
+                 <h1>professionals</h1>
+               </h1>
+               <button type="button" class="btn px-4 py-2 me-3 fw-bold">
+                 Get Started
+               </button>
+               <button type="button" class="btn btn2-cover px-3 py-2">
+                 Our work
+               </button>
+             </div>
+           </div>
+         </div>
+  
+         <div class="carousel-item">
+           <img src="./images/cover2.jpg" class="d-block w-100" alt="..." />
+           <div class="carousel-caption d-none d-md-block">
+             <div class="cover-info">
+               <h3>we craft degital experiances</h3>
+               <h1>
+                 design driven for <br />
+                 <h1>professionals</h1>
+               </h1>
+               <button type="button" class="btn px-4 py-2 me-3 fw-bold">
+                 Get Started
+               </button>
+               <button type="button" class="btn btn2-cover px-3 py-2">
+                 Our work
+               </button>
+             </div>
+           </div>
+         </div>
+       </div>
+  
+       <button
+         class="carousel-control-prev"
+         type="button"
+         data-bs-target="#carouselExampleCaptions"
+         data-bs-slide="prev"
+       >
+         <div class="prev-container">
+           <h3>PREV</h3>
+         </div>
+         <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+         <!-- <span class="visually-hidden">Previous</span> -->
+       </button>
+  
+       <button
+         class="carousel-control-next"
+         type="button"
+         data-bs-target="#carouselExampleCaptions"
+         data-bs-slide="next"
+       >
+         <div class="next-container">
+           <h3>NEXT</h3>
+         </div>
+         <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span> -->
+       </button>
+     </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- about ::::  -->
+<section id="About">
+  <div class="about-wrapper" >
+        <div class="about-container">
+          <img class="about-logo" src="./images/about-icon.jfif" alt="" />
+          <div class="about-info-container">
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores
+              illum asperiores excepturi numquam ducimus, tenetur nesciunt iusto ad
+              in.
+            </p>
+          </div>
+        </div>
+  
+        <div class="about-container">
+          <img class="about-logo" src="./images/about-icon.jfif" alt="" />
+          <div class="about-info-container">
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores
+              illum asperiores excepturi numquam ducimus, tenetur nesciunt iusto ad
+              in.
+            </p>
+          </div>
+        </div>
+  
+  
+        <div class="about-container">
+          <img class="about-logo" src="./images/about-icon.jfif" alt="" />
+          <div class="about-info-container">
+            <h2>Digital Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores
+              illum asperiores excepturi numquam ducimus, tenetur nesciunt iusto ad
+              in.
+            </p>
+          </div>
+        </div>
+  </div>
+  <img class="about-image" src="./images/about-image.jpg" alt="">
+  
 </section>
 
 
-  <!-- caroussel :  -->
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-
-    </div>
-    <div class="carousel-inner">
-
-
-
-      <div class="carousel-item active">
-        <img src="./images/cover1 .jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h3>we craft degital experiances</h3>
-          <h1>design driven for <br><h1> professionals</h1></h1>
-          <button type="button" class="btn">Get Started</button>
-          <button type="button" class="btn">Our work</button>
-        </div>
-      </div>
-
-
-
-      <div class="carousel-item">
-        <img src="./images/cover2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-    <div class="cover-info">
-            <h3>we craft degital experiances</h3>
-            <h1>design driven for <br><h1> professionals</h1></h1>
-            <button type="button" class="btn">Get Started</button>
-            <button type="button" class="btn">Our work</button>
-    </div>
-        </div>
-      </div>
- 
-    </div>
-
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
 
 
 
 
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
 
-    
-<script src="./js/bootstrap.bundle.min.js"></script>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
