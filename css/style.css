@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -72,4 +74,18 @@ body {
     background-color: #d33516;
     transform: scale(1.1,1.1);
     color: white;
+}
+
+
+/* caroussel :  */
+
+.cover-info ,h3 ,h1 {
+    color: black;
+}
+
+.navbar-2{
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
