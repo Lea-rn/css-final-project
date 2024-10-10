@@ -189,4 +189,157 @@ background-color: rgba(255, 255, 255, 0.32);
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
+
+/* about2 :::  */
+.about-2{
+
+    display: flex;
+    flex-direction: row;
+    padding: 130px 40px;
+    justify-content: center;
+    background: linear-gradient(hsla(10, 89%, 56%, 0.779) , hsla(10, 100%, 58%, 0.765)),url(../images/about2.jpg);
+
+    
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.about2-info{
+
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about2-info h3 {
+    color: white;
+    font-size: 60px;
+}
+
+.about2-info p {
+    font-weight: bolder;
+    color: white;
+
+}
+
+/* services ::  */
+
+.service-info{
+
+    margin: 150px;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-info h5 {
+    color: #ff4d29;
+    margin-bottom: 20px;
+}
+
+.service-info h2 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.service-card{
+ 
+    width: 25%;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 25px rgb(1 1 1 /30%);
+    transition: 0.7s ease;
+    padding: 50px 0px;
+    
+}
+
+.service-card:hover {
+    transform: scale(1.1 , 1.1);
+}
+
+.service-card:hover .logo-container img {
+    transform: rotate(360deg);
+}
+
+
+.logo-container{
+    text-align: center;
+}
+
+.logo-container img{
+   height: 160px;
+   transition: 0.7s ease;
+   margin-bottom: 44px;
+
+}
+
+.service-card-info{
+    text-align: center;
+}
+
+.service-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* portfolio :::  */
+
+.portfolio-img{
+    background-image: url(../images/portfolio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 40%;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+  
+}
+.portfolio-img2 {
+    background-image: url(../images/portfolio2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 40%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Portfolio{
+    margin: 150px;
+
+}
+
+.portfolio-info-card{
+    color: white;
+    position: relative;
+    top: 320px;
+    left: 80px;
+}
+
+.portfolio-info-card p::before{
+ content: "";
+ height: 2px;
+ width: 40px;
+ background-color: #ff4d29;
+ display: inline-block;
+ vertical-align: middle;
+ margin-right: 20px;
+ 
+}
+
