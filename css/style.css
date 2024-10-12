@@ -68,6 +68,7 @@ body {
     color: white;
     font-weight: 400;
     transition: 0.7s ease;
+    
 }
 
 .btn:hover {
@@ -343,3 +344,160 @@ background-color: rgba(255, 255, 255, 0.32);
  
 }
 
+
+/* team :::  */
+
+
+.team-info{
+    text-align: center;
+    width: 40%  ; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-info h2 {
+    font-weight: bolder;
+}
+
+/* linear-gradient(rgba(255, 77, 41, 0.624) , hwb(10 2% 36% / 0.647)) */
+.img-team-container{
+background-image: url(../images/team.jpg);
+   height: 250px;
+   background-position: center;
+   background-size: cover;
+}
+
+.img-team-container nav {
+    position: relative;
+    font-size: 25px;
+    top: 100px;
+    left: 48px;
+}
+ .img-team-container nav a {
+ 
+     opacity: 0;
+  
+} 
+
+.card-service-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.card:hover .img-team-container nav a {
+    color: white;
+    margin-right: 10px;
+     border-radius: 100%;
+     padding: 4px;
+     background-color: #ffffff53;
+      opacity: 1;
+
+}
+.card{
+    transition: 1s ease;
+}
+
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+
+.card:hover .img-team-container {
+ background: linear-gradient(rgba(255, 77, 41, 0.624) , hwb(10 2% 36% / 0.647)) , url(../images/team.jpg) ;
+   height: 250px;
+   background-position: center;
+   background-size: cover;
+}
+
+
+
+/* reviews ::  */
+
+#Reviews{
+    background: linear-gradient(hwb(202 12% 40% / 0.603) ,rgba(42, 144, 203, 0.648)),url(../images/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.reviews-container{
+text-align: center;
+width: 40%; 
+margin-left: auto;
+margin-right: auto;
+
+}
+.reviews-container h3 {
+    color: white;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.review-info{
+    color:#ff4d29 ;
+}
+
+.reviews-container i {
+    color:#ff4d29 ;
+}
+
+/* blogs ::  */
+
+.blogs-info{
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.blogs-info h4{
+    color: #ff4d29 ;
+}
+
+.card-blog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-blog-info{
+    margin-left: 15px;
+}
+.date{
+    color: #ff4d29;
+    text-decoration: underline;
+}
+
+.info {
+    width: 50%;
+    text-align: center;
+    background-color: #ff4d29;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    position: relative;
+    top: -180px;
+    left: -12px;
+}
+/* 
+footer */
+
+.foot{
+text-align: center;
+width: 40%;
+margin: 0px auto;
+
+}
+.foot nav a {
+    color: white; 
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+footer{
+    background: linear-gradient(hwb(202 12% 40% / 0.603) ,rgba(42, 144, 203, 0.648)),url(../images/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-top: 200px;
+}
